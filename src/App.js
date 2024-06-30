@@ -317,7 +317,7 @@ function App() {
         <div className="background-div">
           <div className={`moving-image ${startTransition ? 'start' : ''}`}>
             <div className="text-on-image">𝖲𝗄𝗂𝗇𝖲𝖺𝗀𝖾</div>
-             <button className="adbutton" onClick={handleOpenForm}></button>
+             <button className="btn" onClick={handleOpenForm}></button>
           </div>
         </div>
       )}
