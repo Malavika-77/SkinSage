@@ -507,7 +507,12 @@ Reviews - Always make it a habit to read customers’ reviews and feedback onlin
       </div>
     </div>
   ))}
+
+
 </div>
+
+
+
 <div className="new-section">
 <div>
         <h1 style={{position:"absolute",right:"100px",color:"white",width:"600px",height:"400px"}}> What to Know About Your Skin Barrier and How to Protect It</h1>
@@ -627,10 +632,7 @@ Reviews - Always make it a habit to read customers’ reviews and feedback onlin
   </div>
   
 )}
- {showEnquiriesForm && (
-        <EnquiriesForm enquiries={enquiries} onHide={handleHideEnquiries} />
-      )}
-      
+
 
 {showContacts&&(
 
