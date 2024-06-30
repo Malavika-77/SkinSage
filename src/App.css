@@ -10,7 +10,15 @@ body, html {
   position: relative;
   height: 100vh;
 }
-
+.btn{
+border-radius: 50px;
+position: absolute;
+top:326px;
+width: 200px;
+height: 200px;
+left:900px;
+background-color: black;
+  }
 .navbar {
   position: absolute;
   top: 10px;
@@ -361,15 +369,7 @@ font-size: 35px;
 .form-popup button[type='button']:hover {
   opacity: 0.8;
 }
-.adbutton{
-border-radius: 50px;
-position: absolute;
-top:326px;
-width: 200px;
-height: 200px;
-left:900px;
-background-color: black;
-  }
+
   .product-form-popup{
     position: fixed;
     top: 50%;
