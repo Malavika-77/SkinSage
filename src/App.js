@@ -62,7 +62,7 @@ function App() {
 
     const handleShowEnquiries = async () => {
       // Fetch the latest enquiries data from the database
-      const response = await fetch('http://localhost:5000/enquiries'); // Replace with your actual API endpoint
+      const response = await fetch('https://skinsage-jsde.onrender.com/enquiries'); // Replace with your actual API endpoint
       const data = await response.json();
       setEnquiries(data);
       
@@ -90,7 +90,7 @@ function App() {
     const handleSubmitForm = async (e) => {
       e.preventDefault();
       try {
-        const response = await axios.post('http://localhost:5000/api/authenticate', {
+        const response = await axios.post('https://skinsage-jsde.onrender.com/api/authenticate', {
           username,
           password
         });
@@ -111,7 +111,7 @@ function App() {
     const handleAddProduct = async (e) => {
       e.preventDefault();
       try {
-        const response = await axios.post('http://localhost:5000/api/products', {
+        const response = await axios.post('https://skinsage-jsde.onrender.com/api/products', {
           name: productName,
           img: productImg,
           description: productDescription,
@@ -140,7 +140,7 @@ function App() {
     useEffect(() => {
       const fetchProducts = async () => {
         try {
-          const response = await axios.get('http://localhost:5000/products');
+          const response = await axios.get('https://skinsage-jsde.onrender.com/products');
           setProducts(response.data);
           console.log('Products fetched successfully:', response.data);
         } catch (error) {
@@ -160,7 +160,7 @@ function App() {
       e.preventDefault();
   
       try {
-        const response = await axios.post('http://localhost:5000/api/enquiries', {
+        const response = await axios.post('https://skinsage-jsde.onrender.com/api/enquiries', {
           name,
           email,
           message,
