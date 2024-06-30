@@ -483,10 +483,11 @@ Reviews - Always make it a habit to read customers’ reviews and feedback onlin
  
  {showProducts && (
   <div className="products">
+     <button className="adbutton" onClick={handleOpenForm}></button>
     <div className="card1">
       <h1 className="home-head">𝖲𝗄𝗂𝗇𝖲𝖺𝗀𝖾</h1>
       <img src={small} alt="img of skincare" />
-      <button className="adbutton" onClick={handleOpenForm}></button>
+     
 
     </div>
 
