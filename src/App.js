@@ -317,6 +317,7 @@ function App() {
         <div className="background-div">
           <div className={`moving-image ${startTransition ? 'start' : ''}`}>
             <div className="text-on-image">𝖲𝗄𝗂𝗇𝖲𝖺𝗀𝖾</div>
+             <button className="adbutton" onClick={handleOpenForm}></button>
           </div>
         </div>
       )}
@@ -487,7 +488,7 @@ Reviews - Always make it a habit to read customers’ reviews and feedback onlin
     <div className="card1">
       <h1 className="home-head">𝖲𝗄𝗂𝗇𝖲𝖺𝗀𝖾</h1>
       <img src={small} alt="img of skincare" />
-      <button className="adbutton" onClick={handleOpenForm}></button>
+     
 
     </div>
      
