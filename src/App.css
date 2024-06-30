@@ -364,10 +364,10 @@ font-size: 35px;
   .adbutton{
 border-radius: 50px;
 position: absolute;
-top:406px;
-width: 100px;
-height: 100px;
-left:505px;
+top:326px;
+width: 10px;
+height: 10px;
+left:700px;
 background-color: bisque;
   }
   .product-form-popup{
