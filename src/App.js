@@ -483,14 +483,14 @@ Reviews - Always make it a habit to read customers’ reviews and feedback onlin
  
  {showProducts && (
   <div className="products">
-     <button className="adbutton" onClick={handleOpenForm}></button>
+    
     <div className="card1">
       <h1 className="home-head">𝖲𝗄𝗂𝗇𝖲𝖺𝗀𝖾</h1>
       <img src={small} alt="img of skincare" />
      
 
     </div>
-
+     
     <div className="items">
     <h1 style={{ position:"absolute", display:"fixed",top:"10px",left:"10px",fontWeight:"bolder",fontSize:"60px",color:"white",fontFamily:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"}}>Recommented Products</h1><br></br><br></br>
 
@@ -519,6 +519,7 @@ Reviews - Always make it a habit to read customers’ reviews and feedback onlin
         <h1 style={{position:"absolute",right:"100px",color:"white",width:"600px",height:"400px"}}> What to Know About Your Skin Barrier and How to Protect It</h1>
         <p style={{position:"absolute",right:"100px",top:"200px",color:"white",width:"500px",height:"400px"}}>Your skin barrier protects your body from free radicals. 
           Harsh environments are often the cause of damage. Keep it protected using oils, ceramides, and more.</p>
+          <button className="adbutton" onClick={handleOpenForm}></button>
       </div>
       <img src={last}></img>
       
